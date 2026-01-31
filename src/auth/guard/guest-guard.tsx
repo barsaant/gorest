@@ -7,10 +7,9 @@ import { useRouter, useSearchParams } from 'src/routes/hooks';
 
 import { CONFIG } from 'src/global-config';
 
-import { SplashScreen } from 'src/components/loading-screen';
+import { CircularLoadingBlur } from 'src/components/circular-loading-blur';
 
 import { useAuthContext } from '../hooks';
-import { CircularLoadingBlur } from 'src/components/circular-loading-blur';
 
 // ----------------------------------------------------------------------
 

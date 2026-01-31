@@ -7,12 +7,12 @@ import {
   info,
   error,
   common,
+  button,
+  accent,
   primary,
   success,
   warning,
   secondary,
-  button,
-  accent,
 } from './palette';
 
 // ----------------------------------------------------------------------
