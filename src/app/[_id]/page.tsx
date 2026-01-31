@@ -3,16 +3,16 @@ import type { Metadata } from 'next';
 import { ResultView } from 'src/sections/result/result-view';
 
 export const metadata: Metadata = {
-  title: 'Амьдралаа өөрчлөхөд тань туслах цахим хөтөч',
-  description: 'Өөрийгөө таниад алдаагаа зас',
+  title: 'ГҮН НОЙРСОХОД ТАНЬ ТУСЛАХ ХӨТӨЧ',
+  description: 'НОЙРОО ЗАСААД ЭРЧ ХҮЧЭЭ ЭРГҮҮЛЖ АВ',
   openGraph: {
-    title: 'Амьдралаа өөрчлөхөд тань туслах цахим хөтөч',
-    description: 'Өөрийгөө таниад алдаагаа зас',
-    url: 'https://gorest.mn',
+    title: 'ГҮН НОЙРСОХОД ТАНЬ ТУСЛАХ ХӨТӨЧ',
+    description: 'НОЙРОО ЗАСААД ЭРЧ ХҮЧЭЭ ЭРГҮҮЛЖ АВ',
+    url: 'https://gorest.eetneb.dev',
     type: 'website',
     images: [
       {
-        url: 'https://gorest.mn/og-image.png',
+        url: 'https://gorest.eetneb.dev/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Өөрийгөө таниад алдаагаа зас',
