@@ -66,15 +66,19 @@ declare module '@mui/material/styles' {
    */
   interface Palette {
     button: Palette['primary'];
+    accent: Palette['primary'];
   }
   interface PaletteOptions {
     button?: PaletteOptions['primary'];
+    accent?: PaletteOptions['primary'];
   }
   interface CssVarsPalette {
     button: CssVarsPalette['primary'];
+    accent: CssVarsPalette['primary'];
   }
   interface CssVarsPaletteOptions {
     button?: CssVarsPaletteOptions['primary'];
+    accent?: CssVarsPaletteOptions['primary'];
   }
 
   /**
