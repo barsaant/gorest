@@ -60,6 +60,24 @@ declare module '@mui/material/styles' {
   interface PaletteOptions extends DeepPartial<PaletteExtend> {}
 
   /**
+   * ➤➤ Custom palette slot: button
+   * theme.palette.button
+   * theme.vars.palette.button
+   */
+  interface Palette {
+    button: Palette['primary'];
+  }
+  interface PaletteOptions {
+    button?: PaletteOptions['primary'];
+  }
+  interface CssVarsPalette {
+    button: CssVarsPalette['primary'];
+  }
+  interface CssVarsPaletteOptions {
+    button?: CssVarsPaletteOptions['primary'];
+  }
+
+  /**
    * ➤➤ Typography (https://mui.com/customization/typography/)
    * @from {@link file://./core/typography.ts}
    */
@@ -128,6 +146,11 @@ declare module '@mui/material/Button' {
   interface ButtonPropsVariantOverrides extends ButtonExtendVariant {}
   interface ButtonPropsColorOverrides extends ButtonExtendColor {}
   interface ButtonPropsSizeOverrides extends ButtonExtendSize {}
+
+  // Хэрвээ ButtonExtendColor дотор button байхгүй бол uncomment хийгээд ашиглаарай:
+  // interface ButtonPropsColorOverrides {
+  //   button: true;
+  // }
 }
 
 /**

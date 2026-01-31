@@ -2,7 +2,18 @@ import type { SchemesRecord } from '../types';
 
 import { varAlpha } from 'minimal-shared/utils';
 
-import { grey, info, error, common, primary, success, warning, secondary } from './palette';
+import {
+  grey,
+  info,
+  error,
+  common,
+  primary,
+  success,
+  warning,
+  secondary,
+  button,
+  accent,
+} from './palette';
 
 // ----------------------------------------------------------------------
 
@@ -24,6 +35,8 @@ export type CustomShadows = {
   info: string;
   success: string;
   warning: string;
+  button: string;
+  accent: string;
   error: string;
   card: string;
   dialog: string;
@@ -56,6 +69,8 @@ function createCustomShadows(colorChannel: string): CustomShadows {
     success: createShadowColor(success.mainChannel),
     warning: createShadowColor(warning.mainChannel),
     error: createShadowColor(error.mainChannel),
+    button: createShadowColor(button.mainChannel),
+    accent: createShadowColor(accent.mainChannel),
   };
 }
 
