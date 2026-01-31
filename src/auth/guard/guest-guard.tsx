@@ -10,6 +10,7 @@ import { CONFIG } from 'src/global-config';
 import { SplashScreen } from 'src/components/loading-screen';
 
 import { useAuthContext } from '../hooks';
+import { CircularLoadingBlur } from 'src/components/circular-loading-blur';
 
 // ----------------------------------------------------------------------
 
@@ -46,7 +47,7 @@ export function GuestGuard({ children }: GuestGuardProps) {
   }, [authenticated, loading]);
 
   if (isChecking) {
-    return <SplashScreen />;
+    return <CircularLoadingBlur />;
   }
 
   return <>{children}</>;

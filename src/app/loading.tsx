@@ -1,7 +1,7 @@
-import { SplashScreen } from 'src/components/loading-screen';
+import { CircularLoadingBlur } from 'src/components/circular-loading-blur';
 
 // ----------------------------------------------------------------------
 
 export default function Loading() {
-  return <SplashScreen />;
+  return <CircularLoadingBlur />;
 }
