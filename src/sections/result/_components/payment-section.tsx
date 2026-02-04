@@ -50,7 +50,7 @@ export const PaymentSection = ({ result, onCheckPayment }: PaymentSectionProps) 
     <Stack spacing={2} alignItems="center" sx={{ position: 'relative', width: '100%' }}>
       <Stack spacing={1.2} sx={{ width: '100%', maxWidth: 560 }}>
         <Typography variant="h6" fontWeight={980} sx={{ textAlign: 'center', lineHeight: 1.15 }}>
-          Төлөөд шууд нээгээрэй
+          4900₮ төлөөд та доорх дүгнэлтийг авах боломжтой
         </Typography>
 
         <Stack spacing={1.05} sx={{ mt: 0.5 }}>
