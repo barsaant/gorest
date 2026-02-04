@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'ГҮН НОЙРСОХОД ТАНЬ ТУСЛАХ ХӨТӨЧ',
     description: 'НОЙРОО ЗАСААД ЭРЧ ХҮЧЭЭ ЭРГҮҮЛЖ АВ',
-    url: 'https://gorest.mn',
+    url: 'https://gorest.eetneb.dev',
     type: 'website',
     images: [
       {
-        url: 'https://gorest.mn/og-image.png',
+        url: 'https://gorest.eetneb.dev/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Өөрийгөө таниад алдаагаа зас',
